@@ -6,7 +6,7 @@ SELECT *
 FROM layoffs;
 
 
--- Create Table from Raw Data Table
+-- Create a Table from Raw Data Table
 
 CREATE TABLE layoffs_staging
 LIKE layoffs;
@@ -15,7 +15,7 @@ SELECT *
 FROM layoffs_staging;
 
 
--- Insert Data to new table
+-- Insert Data to a new table
 
 INSERT layoffs_staging
 SELECT *
